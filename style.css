@@ -1,0 +1,25 @@
+#backgroundimage {
+  background-image: url(./images/backgroundimage.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+}
+#backgroundimage1 {
+  background-image: url(./images/backgroundimage1.jpg);
+  height: 100%; 
+  background-size: cover;
+  background-position: center top;
+}
+.header {
+  min-height: 510px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.main-text {
+  color: white;
+}
+.sub-text {
+  color: white;
+}
