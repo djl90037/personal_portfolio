@@ -1,14 +1,17 @@
 #backgroundimage {
-  background-image: url(./images/backgroundimage.jpg);
-  height: 100%;
+  background-image: url(./images/backgroundfinal.jpg);
   background-size: cover;
-  background-position: center top;
+  
+  position: relative;
+  min-height: 2500px;
+  
 }
-#backgroundimage1 {
-  background-image: url(./images/backgroundimage1.jpg);
-  height: 100%; 
-  background-size: cover;
-  background-position: center top;
+
+.body {
+  font-family: luminari, serif;
+}
+.navbar {
+  font-family: luminari, sans-serif;
 }
 .header {
   min-height: 510px;
@@ -16,10 +19,108 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  margin-bottom: 110px;
 }
-.main-text {
-  color: white;
+.header-text {
+  color: #e2d5cd;
+  font-size: 55px;
+  text-shadow: 3px 3px 3px #484847;
 }
-.sub-text {
+.header-subtext {
+  color:  #d3c2b8;
+  font-family: luminari, sans-serif;
+  text-shadow: 2px 2px 2px #484847;
+}
+
+#about { 
+  color:#3e403f;
+
+}
+
+.about-text {
+  color:#3e403f;
+  font-family: luminari, sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.75em;
+}
+
+
+@media (min-width: 992px) {
+  #about {
+    padding-bottom: 40px;
+  }
+}
+
+#project {
+  position: relative;
+  z-index: 7;
+
+}
+#project {
+  border: 0.5px solid gray;
+  box-shadow: 3px 3px 5px 2px #6c6763!important;
+}
+@media (min-width: 992px) {
+  .projects {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .projects {
+    margin-bottom: 50px;
+  }
+}
+
+.caption {
+  position: relative;
+  z-index: 8;
+  margin: auto;
+  text-align: center;
+  font-family: luminari, sans-serif;
+  margin-top: 2em;
+}
+@media (max-width: 992px) {
+  #caption {
+    color: white;
+  }
+}
+
+.btn-sm {
+  width: 15%;
+  font-size: 1.05rem;
+  display: inline-block;
+}
+
+.social {
+  width: 100%;
+  text-align: center;
+  margin-top: 75px;
+}
+#contact {
+  color:white;
+}
+
+@media (min-width: 992px) {
+  .contact {
+    margin-top: 200px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
   color: white;
+  font-family: luminari, sans-serif;
+}
+
+.footer-link {
+  bottom: 0;
+  right: 1rem;
+  position: absolute;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    margin-top: 80px;
+  }
 }
